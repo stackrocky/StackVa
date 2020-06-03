@@ -1,0 +1,18 @@
+<!--这是一个HTML--><!DOCTYPE html><html>
+<!--head部分--><head><title>adminADMIN</title>
+<!--javascript--><script>
+window.onload = function () {
+  yanzhengbutton = document.getElementsById("YanZheng")
+  yanzhengbutton.onclick = function () {
+    // 获取元素
+    pswd = document.getElementsById("userpassword").value;
+    if pswd == "123456"{
+      alert('网址：域名+admin/mainf.html')
+    } else{
+      alert('自消除。')
+  }
+}
+</script>
+</head>
+<!--body部分--><body><input type="text" id="userpassword"><input type="button" id="YanZheng"><p>已经迫不及待的验证啦~</p></body>
+<!--最后--></html>
